@@ -5,14 +5,14 @@ public class Shield {
 
     public static void main(String[] args) {
 
-        List<String> agentsName = new ArrayList<>();
-        agentsName.add("Phil Coulson");
-        agentsName.add("Melinda May");
-        agentsName.add("Daisy Johnson");
-        agentsName.add("Leopold Fitz");
-        agentsName.add("Jemma Simmons");
+        List<String> names = new ArrayList<>();
+        names.add("Phil Coulson");
+        names.add("Melinda May");
+        names.add("Daisy Johnson");
+        names.add("Leopold Fitz");
+        names.add("Jemma Simmons");
 
-        // TODO 1 : map names to agent set
+        // TODO 1 : map names to agents list
         List<Agent> agents = new ArrayList<>();
 
         showAgents(agents);
